@@ -1,0 +1,20 @@
+Hệ thống quản lý chung cư
+
+1. Mô tả mục tiêu:
+Thiết kế hệ thống quản lý chung cư cho phép quản lý toàn bộ thông tin của 1 chung cư bao gồm thông tin các căn hộ, diện tích sư dụng, con người gồm người thuê nhà, và người sở hữu nhà. 
+Hệ thống cho phép xem toàn bộ tình trạng vật chất và hoạt động của các tầng phòng, căn hộ một cách trực quan, gắn kết.
+TÌnh trạng cơ sở vật chất mô tả tình trạng của các tài sản căn hộ trong chung cư, mới hay cũ, các tài sản bị hư hỏng, kết cấu bị hư hỏng. mỗi căn hộ, phòng đêu dc mô tả chi tiết co hinh anh minh họa (co thể sư dụng lại để đăng tải public trên Internet để kinh doanh)
+Tình trạng hoạt động bao gồm, căn hộ chưa hoạt động, đang cho thuê, đã bán...vói nhưng căn hộ đã bán hoặc cho thuê cũng cần quản lý được chi tiết các giao dịch, thời hạn, lịch sử...
+Tât cả các hộ gia đình sống trong chung cư dều phải được quản lý đầy đủ, bom gôm các hoạt động hàng ngày, các chi phí phat sinh hàng ngày, hàng tháng. Quản lý tình trạng thanh toán chi phí hàng tháng.
+Hệ thống hỗ trợ các phương thức giao tiếp tiện dụng giữa BQL chung cư và các hộ gia đình để thông báo, gửi thông tin phí dịch vụ, các cảnh báo hàng ngày, bất thường. Phương thức có thể là SMS, mobile app, website.... Hệ thống cũng có cổng giao tiếp, tiếp nhận thông tin, phản hồi từ phía các hộ gia đình như thông báo hỏng hóc thiết bị, báo khách thăm, các cảnh báo khác.
+Xa hơn hệ thống có thể tích hợp các công thanh toán điện tử cho phép các gia đình có thể thanh toán từ xa.
+
+
+2. Công nghệ
+.Net, C#, Sql server
+ASP.NET, tạo webform cho phép các chung cư đăng ký thông tin, tạo tài khoản sử dụng.
+winform hoặc webform: Tạo ứng dụng quản lý hệ thống chung cư.
+Mobile app: Ứng dụng di động cho các hộ gia đình có thể tra cứu thông tin phí dịch vụ, nhận thông tin từ chung cư, giao tiếp, gửi yêu cầu đến ban QL chung cư
+(*) Cho phép quảng cáo trên ứng dụng di động, cung cấp các dịch vụ gia tăng trên thiết bị di động như dịch vụ thuê giặt đồ, dvu vận chuyển, dvu thuê giúp việc......
+
+3. Chức năng
