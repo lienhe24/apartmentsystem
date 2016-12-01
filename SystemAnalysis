@@ -9,6 +9,7 @@ Tât cả các hộ gia đình sống trong chung cư dều phải được qu�
 Hệ thống hỗ trợ các phương thức giao tiếp tiện dụng giữa BQL chung cư và các hộ gia đình để thông báo, gửi thông tin phí dịch vụ, các cảnh báo hàng ngày, bất thường. Phương thức có thể là SMS, mobile app, website.... Hệ thống cũng có cổng giao tiếp, tiếp nhận thông tin, phản hồi từ phía các hộ gia đình như thông báo hỏng hóc thiết bị, báo khách thăm, các cảnh báo khác.
 Xa hơn hệ thống có thể tích hợp các công thanh toán điện tử cho phép các gia đình có thể thanh toán từ xa.
 
+(*) Uu tien thoi gian dau phat trien, portal cung cap dich vu cho ban quan ly toan nha va ung dung khách hang, nghien cuu tich hop vao cac he thong quan ly san co cua cac nha cung cap khac
 
 2. Công nghệ
 .Net, C#, Sql server
@@ -32,4 +33,20 @@ Mobile app: Ứng dụng di động cho các hộ gia đình có thể tra cứu
 - Quản lý danh mục phí dịch vụ tòa nhà
 - Quản lý thu chi (thu phí dịch vu hàng thang, )
 
+3.2 Ứng dụng dành cho hộ gia đình của chung cư
+(*) Mục tiêu app: tích hợp với các hệ thống quản lý chung cư có sẵn tren thị truong
+- Gưi yêu cầu, phàn nàn đến ban quản lý, dữ liệu sẽ lưu về tài khoản của BQL, va có thê export de import vao he thong quan ly noi bo. BQL cung có thể update tình trạng xử lý yêu cầu qua 1 API của hệ thống (API co the ban cho cac nha cung cap phan mem de tich hop truc tiep vao he thong cua ho)
+- Nhận các thông báo phí từ ban quản lý (BQL trich xuat du lieu phi dich vu va import vao he thong account cua BQL)
+- Tra cưu các thông tin phí dịch vụ (dien, nuoc, ve sinh, phi quan ly, phi khac), dich vụ tòa nhà cung cap, lien he toa nha,(cac dich vu: cuoi hoi, tang le, thue nguoi giup viec, giat do, chuyen nha, van tai, thue xe, mua sam, cac dich vu khac)
+- Thuc hien dang ky sử dụng dịch vụ trực tiếp từ phần mềm (các đang ky nay se dược chuyen den cho BQL de cung cap)
+- Nhận các thông tin, thông báo, cảnh báo từ ban quản lý (các thông bao nay BQL se phai nhap vao account quan ly tren portal)
 
+(*) sau nay co the lien ket voi các ung dung ngoi nhan tin truc tuyen nhu zalo, facebook, viber... de lam tien ich giao tiep giua BQL va khách hàng.
+
+3.3 Portal quan ly dich vu quan ly cho ban quan ly
+Moi BQL toan nha co the dang ky 1 account quan ly tren portal, BQL co the tao danh sach cac account khach hàng dang sử dung dịch vụ của chung cư (username=ma can ho).
+- Qly, xu ly yeu cau phan nan tu khách hàng. (trich loc giao tiep duoc voi các he thong co san tren thi truong)
+- Qly cap nhat thong bao phi hang thang cho tat ca cac khach hang chung cu (co the import tu file excel)
+- Quan ly cac danh muc phi, danh muc dich vu de cung cap cho khách hàng
+- Quan ly cac order dich vu cua khách hàng va xu lý.
+- Qly cap nhat các thông báo, cảnh báo cho khách hàng, các canh bao nay se duoc notify ngay lap tuc cho khách hàng qua ung dung
