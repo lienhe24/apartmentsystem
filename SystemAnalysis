@@ -18,3 +18,18 @@ Mobile app: Ứng dụng di động cho các hộ gia đình có thể tra cứu
 (*) Cho phép quảng cáo trên ứng dụng di động, cung cấp các dịch vụ gia tăng trên thiết bị di động như dịch vụ thuê giặt đồ, dvu vận chuyển, dvu thuê giúp việc......
 
 3. Chức năng
+3.1 Hệ thống quản lý tòa nhà
+- Quan ly thông tin chung tòa nhà (thông tin, liên lạc, ban quản lý....)
+- Quan lý tài sản
+- Quản lý căn hộ, phòng, tầng (Qly mat bang)
+- Qly khách hàng (người thuê phòng, chủ sở hữu phòng). nhân khẩu của hộ gia đình.
+- Quản lý giao dịch, hợp đồng cư dân
+- Quản lý kho vật tư, nhóm vật tư (thiet kế giống qly vạt tư kho, có cảnh báo min qty): Các vật tư phục vụ cho tòa nhà sử dụng, sủa chữa, dụ phòng
+- Quản lý sự cố (Quản lý yêu cầu, báo sự cố -> Tạo work order -> Xư lý work order)
+- Quản lý mua sắm vật tư, tài sản ...(PR, PO, Inward)
+- Quản lý lập lịch công việc (tạo lịch bảo trì, sửa chữa, thông bao phí, chốt thu phí dịch vụ, lập lich sử lý sự cố, các thông báo khác.)
+- Quản lý nhân viên BQL tòa nhà.
+- Quản lý danh mục phí dịch vụ tòa nhà
+- Quản lý thu chi (thu phí dịch vu hàng thang, )
+
+
