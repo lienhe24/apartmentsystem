@@ -44,9 +44,13 @@ Mobile app: Ứng dụng di động cho các hộ gia đình có thể tra cứu
 (*) sau nay co the lien ket voi các ung dung ngoi nhan tin truc tuyen nhu zalo, facebook, viber... de lam tien ich giao tiep giua BQL va khách hàng.
 
 3.3 Portal quan ly dich vu quan ly cho ban quan ly
-Moi BQL toan nha co the dang ky 1 account quan ly tren portal, BQL co the tao danh sach cac account khach hàng dang sử dung dịch vụ của chung cư (username=ma can ho).
+Moi BQL toan nha co the dang ky 1 account quan ly tren portal, BQL co the tao danh sach cac account khach hàng dang sử dung dịch vụ của chung cư (username=ma can ho. Bo sung cac thong tin lien quan de co the nhan biet duoc khach hang la ai o can ho nao, thong tin lien lac...).
+- Qly danh muc phong, tang, block (Can thiet de lien ket voi thong tin khach hang, phi dich vu) (Cho phep import tu excel)
+- 
 - Qly, xu ly yeu cau phan nan tu khách hàng. (trich loc giao tiep duoc voi các he thong co san tren thi truong)
 - Qly cap nhat thong bao phi hang thang cho tat ca cac khach hang chung cu (co the import tu file excel)
 - Quan ly cac danh muc phi, danh muc dich vu de cung cap cho khách hàng
 - Quan ly cac order dich vu cua khách hàng va xu lý.
 - Qly cap nhat các thông báo, cảnh báo cho khách hàng, các canh bao nay se duoc notify ngay lap tuc cho khách hàng qua ung dung
+
+(luu y: Day la he thong tich hop voi cac he thong co san len phai co kha nang import/export tu nhieu nguon voi nhieu dinh dạng khac nhau excel, csv, xml, json, He thong cung can nghien cuu va public cac templete phuc vu cho viec import/export giao tiep voi cac phan mem quan ly chung cu khac.)
