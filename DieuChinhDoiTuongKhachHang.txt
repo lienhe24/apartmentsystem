@@ -1,0 +1,18 @@
+Sau khi nghiên cứu,
+Hệ thống cần chuyển đổi đối tượng khách hàng đến các toà nhà nhỏ (<50 phòng), các chung cư mini do cá nhân quản lý, motel, hostel
+Khách hàng sẽ bao gồm cả khách hàng quốc tế.
+Thiết bị tập trung vào di dộng để quản lý và tạo mạng lưới tương tác giữa chủ tòa nhà với các hộ dân.
+Với các tòa nhà lớn có từ >20 phòng có thể quản lý qua web hoặc mobile để xử lý được dễ dàng hơn.
+----------------------
+Giá trị cho khách hàng
+Quản lý tòa nhà dễ dàng qua web, mobile
+Giao tiếp nhanh chóng trong từng mạng lưới tòa nhà, xây dựng cồng đồng theo nhóm.
+
+
+
+
+
+
+Giá trị thu lại
+Phát hành ứng dụng free để thu được hệ thống mạng lưới dân cư tại các tòa nhà. Free cũng có thể cạnh tranh được với các hệ thống đang có sẵn.
+Từ hệ thống mạng lưới có thể addon thêm các dịch vụ giá trị gia tăng (quảng cáo, bán dịch vụ tiện ích, thu thập thông tin hành vi)
